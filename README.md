@@ -1,3 +1,7 @@
+# SWEDU - 공통프로젝트 - 한솥도시락 클론코딩
+
+[한솥 도시락 원본 홈페이지](https://www.hsd.co.kr/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
