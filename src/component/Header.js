@@ -1,21 +1,37 @@
 import styles from "../css/header.module.css";
 import h1Img from "../img/h1_logo.png";
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
     <>
       <header className={styles.header_navi}>
-        <img src={h1Img} alt="logo"/>
+        <Link to="/"><img src={h1Img} alt="logo" /></Link>
         <ul className={styles.dp}>
-          <li>BRAND</li>
-          <li>ESG</li>
-          <li>MENU</li>
-          <li>STORE</li>
-          <li>EVENT</li>
-          <li>FRANCHISE</li>
-          <li>HANSOT</li>
+          <li id="brand">
+            <Link to="/brand">BRAND</Link>
+          </li>
+          <li id="esg">
+            <Link to="/esg">ESG</Link>
+          </li>
+          <li id="menu">
+            <Link to="/menu">MENU</Link>
+          </li>
+          <li id="store">
+            <Link to="/store">STORE</Link>
+          </li>
+          <li id="event">
+            <Link to="/event">EVENT</Link>
+          </li>
+          <li id="franchise">
+            <Link to="/franchise">FRANCHISE</Link>
+          </li>
+          <li id="hansot">
+            <Link to="/hansot">HANSOT</Link>
+          </li>
           <div className={styles.navDetail}>
-            <ul>
+            <ul className={styles.navDetailul} id="navDetailul">
+              {console.log( document.getElementById("navDetailul"))}
               <ul>
                 <li>브랜드 스토리</li>
                 <li>브랜드 철학</li>
@@ -38,7 +54,11 @@ export default function Header() {
                   <br />
                   (Govermance)
                 </li>
-                <li>세계 40대 브랜드 선정</li>
+                <li>
+                  세계 40대
+                  <br />
+                  브랜드 선정
+                </li>
               </ul>
               <ul>
                 <li>전체 메뉴</li>
@@ -56,8 +76,10 @@ export default function Header() {
               <ul>
                 <li>Why 한솥 가맹점</li>
                 <li>성공수기</li>
+                <br />
                 <li>창업개설절차</li>
                 <li>예상 창업 비용</li>
+                <br />
                 <li>창업 문의</li>
                 <li>창업설명회 일정•신청</li>
               </ul>
@@ -68,6 +90,7 @@ export default function Header() {
                 <li>한솥 NEWS</li>
                 <li>오시는 길</li>
                 <li>고객 센터</li>
+                <br />
                 <li>인재채용</li>
               </ul>
             </ul>
