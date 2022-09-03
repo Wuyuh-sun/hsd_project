@@ -1,0 +1,80 @@
+.jumboUL{
+  list-style: none;
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  float: left;
+  z-index: 1;
+}
+.jumboUL li{
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 650px;
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: 0.3s ease-in;
+}
+.jumboUL li:nth-child(1){
+  background-image: url(../../img/MainImg/jumbo1.jpg);
+  z-index: 8;
+  /* left: 0; */
+}
+.jumboUL li:nth-child(2){
+  background-image: url(../../img/MainImg/jumbo2.jpg);
+  z-index: 7;
+  /* left: 100%; */
+}
+.jumboUL li:nth-child(3){
+  background-image: url(../../img/MainImg/jumbo3.jpg);
+  z-index: 6;
+  /* left: 200%; */
+}
+.jumboUL li:nth-child(4){
+  background-image: url(../../img/MainImg/jumbo4.jpg);
+  z-index: 5;
+  /* left: 300%; */
+}
+.jumboUL li:nth-child(5){
+  background-image: url(../../img/MainImg/jumbo5.jpg);
+  z-index: 4;
+  /* left: 400%; */
+}
+.jumboUL li:nth-child(6){
+  background-image: url(../../img/MainImg/jumbo6.jpg);
+  z-index: 3;
+  /* left: 500%; */
+}
+.jumboUL li:nth-child(7){
+  background-image: url(../../img/MainImg/jumbo7.jpg);
+  z-index: 2;
+  /* left: 600%; */
+}
+
+.jumboController{
+  list-style: none;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  top: 590px;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 99999;
+}
+.jumboController div{
+  width: 1170px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.jumboController div li{
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  margin-right: 7px;
+  background-color: #cfc6bc;
+  cursor: pointer;
+}
