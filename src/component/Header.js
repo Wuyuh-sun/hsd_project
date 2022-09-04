@@ -49,13 +49,13 @@ export default function Header() {
                 }}
               >
                 <li>
-                  <Link to="/">브랜드 스토리</Link>
+                  <Link to="#">브랜드 스토리</Link>
                 </li>
                 <li>
-                  <Link to="/">브랜드 철학</Link>
+                  <Link to="#">브랜드 철학</Link>
                 </li>
                 <li>
-                  <Link to="/">브랜드 유산</Link>
+                  <Link to="#">브랜드 유산</Link>
                 </li>
               </ul>
               <ul
@@ -74,31 +74,31 @@ export default function Header() {
                 }}
               >
                 <li>
-                  <Link to="/">ESG경영이란?</Link>
+                  <Link to="#">ESG경영이란?</Link>
                 </li>
                 <li>
-                  <Link to="/">
+                  <Link to="#">
                     환경보호
                     <br />
                     (Environment)
                   </Link>
                 </li>
                 <li>
-                  <Link to="/">
+                  <Link to="#">
                     사회공헌
                     <br />
                     (Social)
                   </Link>
                 </li>
                 <li>
-                  <Link to="/">
+                  <Link to="#">
                     윤리경연
                     <br />
                     (Govermance)
                   </Link>
                 </li>
                 <li>
-                  <Link to="/">
+                  <Link to="#">
                     세계 40대
                     <br />
                     브랜드 선정
@@ -119,13 +119,13 @@ export default function Header() {
                   <Link to="/menu/menu_list">전체 메뉴</Link>
                 </li>
                 <li>
-                  <Link to="/">식재료 이야기</Link>
+                  <Link to="#">식재료 이야기</Link>
                 </li>
                 <li>
-                  <Link to="/">페루찬차마요커피</Link>
+                  <Link to="#">페루찬차마요커피</Link>
                 </li>
                 <li>
-                  <Link to="/">단체 주문</Link>
+                  <Link to="#">단체 주문</Link>
                 </li>
               </ul>
               <ul
@@ -139,7 +139,7 @@ export default function Header() {
                 }}
               >
                 <li>
-                  <Link to="/">주변점포찾기</Link>
+                  <Link to="#">주변점포찾기</Link>
                 </li>
               </ul>
               <ul
@@ -153,10 +153,10 @@ export default function Header() {
                 }}
               >
                 <li>
-                  <Link to="/">이 달의 이벤트</Link>
+                  <Link to="#">이 달의 이벤트</Link>
                 </li>
                 <li>
-                  <Link to="/">신규점 오픈 이벤트</Link>
+                  <Link to="#">신규점 오픈 이벤트</Link>
                 </li>
               </ul>
               <ul
@@ -170,24 +170,24 @@ export default function Header() {
                 }}
               >
                 <li>
-                  <Link to="/">Why 한솥 가맹점</Link>
+                  <Link to="#">Why 한솥 가맹점</Link>
                 </li>
                 <li>
-                  <Link to="/">성공수기</Link>
-                </li>
-                <br />
-                <li>
-                  <Link to="/">창업개설절차</Link>
-                </li>
-                <li>
-                  <Link to="/">예상 창업 비용</Link>
+                  <Link to="#">성공수기</Link>
                 </li>
                 <br />
                 <li>
-                  <Link to="/">창업 문의</Link>
+                  <Link to="#">창업개설절차</Link>
                 </li>
                 <li>
-                  <Link to="/">창업설명회 일정•신청</Link>
+                  <Link to="#">예상 창업 비용</Link>
+                </li>
+                <br />
+                <li>
+                  <Link to="#">창업 문의</Link>
+                </li>
+                <li>
+                  <Link to="#">창업설명회 일정•신청</Link>
                 </li>
               </ul>
               <ul
@@ -201,26 +201,26 @@ export default function Header() {
                 }}
               >
                 <li>
-                  <Link to="/">한솥의 약속</Link>
+                  <Link to="#">한솥의 약속</Link>
                 </li>
                 <li>
-                  <Link to="/">한솥의 비전</Link>
+                  <Link to="#">한솥의 비전</Link>
                 </li>
                 <li>
-                  <Link to="/">연혁&수상</Link>
+                  <Link to="#">연혁&수상</Link>
                 </li>
                 <li>
-                  <Link to="/">한솥 NEWS</Link>
+                  <Link to="#">한솥 NEWS</Link>
                 </li>
                 <li>
-                  <Link to="/">오시는 길</Link>
+                  <Link to="#">오시는 길</Link>
                 </li>
                 <li>
-                  <Link to="/">고객 센터</Link>
+                  <Link to="#">고객 센터</Link>
                 </li>
                 <br />
                 <li>
-                  <Link to="/">인재채용</Link>
+                  <Link to="#">인재채용</Link>
                 </li>
               </ul>
             </ul>

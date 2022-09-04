@@ -16,39 +16,41 @@
   height: 650px;
   background-position: 50% 50%;
   background-size: cover;
-  transition: 0.3s ease-in;
+  transition: 0.5s ease-in-out, filter 0.1s;
+  cursor: pointer;
 }
-.jumboUL li:nth-child(1){
+
+.jumboUL a:nth-child(1) li{
   background-image: url(../../img/MainImg/jumbo1.jpg);
   z-index: 8;
   /* left: 0; */
 }
-.jumboUL li:nth-child(2){
+.jumboUL a:nth-child(2) li{
   background-image: url(../../img/MainImg/jumbo2.jpg);
   z-index: 7;
   /* left: 100%; */
 }
-.jumboUL li:nth-child(3){
+.jumboUL a:nth-child(3) li{
   background-image: url(../../img/MainImg/jumbo3.jpg);
   z-index: 6;
   /* left: 200%; */
 }
-.jumboUL li:nth-child(4){
+.jumboUL a:nth-child(4) li{
   background-image: url(../../img/MainImg/jumbo4.jpg);
   z-index: 5;
   /* left: 300%; */
 }
-.jumboUL li:nth-child(5){
+.jumboUL a:nth-child(5) li{
   background-image: url(../../img/MainImg/jumbo5.jpg);
   z-index: 4;
   /* left: 400%; */
 }
-.jumboUL li:nth-child(6){
+.jumboUL a:nth-child(6) li{
   background-image: url(../../img/MainImg/jumbo6.jpg);
   z-index: 3;
   /* left: 500%; */
 }
-.jumboUL li:nth-child(7){
+.jumboUL a:nth-child(7) li{
   background-image: url(../../img/MainImg/jumbo7.jpg);
   z-index: 2;
   /* left: 600%; */
@@ -64,17 +66,32 @@
   transform: translateY(-50%);
   z-index: 99999;
 }
-.jumboController div{
+.jumboController div:nth-child(1){
   width: 1170px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
-.jumboController div li{
+.jumboController div:nth-child(1) li{
   display: inline-block;
   width: 50px;
   height: 4px;
   margin-right: 7px;
   background-color: #cfc6bc;
   cursor: pointer;
+  transition: 0.2s;
+}
+.jumboPlayBtn{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../img/icon_play.png);
+  background-repeat: no-repeat;
+  background-size: 60px 30px;
+  /* background-position: -30px 0; */
+  top: 0;
+  left: 37.5%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
