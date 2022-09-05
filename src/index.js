@@ -6,9 +6,17 @@ import indexCss from "./index.css";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 
-function reducer(state , action) {
-  
+const jumboState = true;
+
+function reducer(state = jumboState, action) {
+  if(action.jumboPlayState = true){
+    return action.jumboPlayState;
+  }
+  if(action.jumboPlayState = false){
+    return action.jumboPlayState;
+  }
 }
+
 
 let store = createStore(reducer);
 
