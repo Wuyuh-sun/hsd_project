@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&family=Noto+Sans+KR:wght@300;700&display=swap');
+
+a{
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content2_wrap{
+  position: absolute;
+  width: 100%;
+  height: 440px;
+  background-color: white;
+  top: 1300px;
+  left: 0;
+}
+.content2_wrap_center{
+  width: 1170px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Content2ItemBox{
+  width: 370.5px;
+  height: 100%;
+  /* background-color: #f6ca00; */
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+.Content2ItemBox_wrap{
+  width: 100%;
+  height: 100%;
+  padding: 45px 30px 0 30px;
+  box-sizing: border-box;
+}
+.Content2ItemBox_wrap h2{
+  font-size: 2.2em;
+  color: #373737;
+  width: 100%;
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-weight: 700;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.Content2ItemBox_wrap h2:nth-child(3){
+  width: 40px;
+  height: 25px;
+  border-bottom: 4px solid #373737;
+  margin-bottom: 20px;
+}
+.Content2ItemBox_wrap div{
+  font-size: 0.9em;
+  font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 5px;
+}
+.Content2ItemBox_img{
+  width: 100%;
+  height: 230px;
+}
+.Content2ItemBox_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.Content2ItemBox_footer{
+  width: 100%;
+  height: 204px;
+  background-color: #eeecec;
+  position: relative;
+  top: 0;
+  padding: 30px 10px 30px 20px;
+  box-sizing: border-box;
+}
+.Content2ItemBox_footer_textBox{
+  color: #373737;
+  font-size: 1.4em;
+  font-weight: bold;
+  position: relative;
+}
+.Content2ItemBox_footer_textBox div{
+  margin-bottom: 8px;
+}
+.Content2ItemBox_footer_textBox_hoverImg{
+  color: #5c5953;
+  font-size: 13px;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 25px;
+}
+.Content2ItemBox_footer_textBox_hoverImg::before{
+  content: "";
+  position: absolute;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../img/btn_link.png);
+  background-repeat: no-repeat;
+  background-size: 40px 20px;
+  background-position: -0px 0;
+  transition: 0.3s;
+}
+
+.Content2ItemBox:hover .Content2ItemBox_footer_textBox_hoverImg::before{
+  background-position: -20px 0;
+}
+.ContentItemBoxBarBack{
+  width: 370px;
+  height: 440px;
+  background-color: #373737;
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+}
+.ContentItemBoxBarFront{
+  width: 370px;
+  height: 440px;
+  background-color: #f6ca00;
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+  transform: rotateY(90deg);
+}
+.Content2ItemBox:hover ~ .ContentItemBoxBarFront{
+  transform: rotateY(0deg);
+  transition: 0.5s ease-in-out;
+}

@@ -64,7 +64,7 @@
   top: 590px;
   left: 0;
   transform: translateY(-50%);
-  z-index: 99999;
+  z-index: 9999;
 }
 .jumboController div:nth-child(1){
   width: 1170px;

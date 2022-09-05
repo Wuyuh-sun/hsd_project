@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&family=Noto+Sans+KR:wght@300;700&display=swap');
+
+.Content4_Wrap{
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  top:2470px;
+  left: 0;
+  overflow: hidden;
+}
+.Content4_Wrap_Content_img{
+  width: 799.5px;
+  height: 600px;
+  position: absolute;
+  top:0;
+  left: calc(50% - 185.5px);
+  transform: translateX(-50%);
+  background-image: url(../../img/MainImg/main_img_05.jpg);
+  background-repeat: no-repeat;
+  transition: 1s ease-in-out;
+  z-index: 1;
+}
+.Content4_Wrap_Content_Back{
+  width: 370.5px;
+  height: 100%;
+  z-index: 8;
+  background-color: #373737;
+  position: absolute;
+  right: calc(50% - 400px);
+  transform: translateX(50%);
+}
+.Content4_Wrap_Content_Front{
+  width: 370.5px;
+  height: 100%;
+  z-index: 9;
+  background-color: #f6ca00;
+  position: absolute;
+  right: calc(50% - 585px);
+  transform: rotateY(90deg);
+}
+.Content4_Wrap:hover .Content4_Wrap_Content_Front{
+  transform: rotateY(0deg);
+  transition: 0.5s ease-in-out;
+}
+.Content4_Wrap_Content{
+  width: 370.5px;
+  height: calc(100% - 3px);
+  z-index: 10;
+  background-color: #eeecec;
+  position: absolute;
+  right: calc(50% - 400px);
+  transform: translateX(50%);
+}
+
+.Content4ItemBox_wrap{
+  width: 100%;
+  height: 100%;
+  padding: 40px 30px 0 30px;
+  box-sizing: border-box;
+  color: #373737;
+}
+.Content4ItemBox_wrap h2{
+  font-size: 2.2em;
+  width: 100%;
+  /* font-family: 'Noto Sans', sans-serif; */
+  font-weight: 700;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.Content4ItemBox_wrap h2:nth-child(4){
+  width: 40px;
+  height: 25px;
+  border-bottom: 4px solid #373737;
+  margin-bottom: 20px;
+}
+.Content4ItemBox_wrap div{
+  font-size: 0.9em;
+  font-weight: 500;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: -0.4px;
+}
+.Content4ItemBox_wrap .brandLink{
+  width: 170px;
+  height: 62px;
+  font-weight: bold;
+  cursor: pointer;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  text-align: center;
+  line-height: 62px;
+  margin-top: 80px;
+  transition: 0.4s;
+}
+.Content4ItemBox_wrap .brandLink:hover{
+  background-color: whitesmoke;
+  color: #373737;
+}
+.Content4ItemBox_footer_textBox_hoverImg{
+  color: #5c5953;
+  font-size: 13px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.Content4ItemBox_footer_textBox_hoverImg::before{
+  content: "";
+  position: absolute;
+  left: -25px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../img/btn_link.png);
+  background-repeat: no-repeat;
+  background-size: 40px 20px;
+  background-position: -0px 0;
+  transition: 0.3s;
+}
+
+.Content4_Wrap:hover .Content4ItemBox_footer_textBox_hoverImg::before{
+  background-position: -20px 0;
+}
