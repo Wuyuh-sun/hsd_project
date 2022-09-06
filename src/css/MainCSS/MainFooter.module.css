@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Noto+Sans&family=Noto+Sans+KR:wght@300;700&display=swap');
+
+.MainFooter_Wrap{
+  width: 100%;
+  height: 310px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #f2c000;
+}
+.MainFooter_Wrap_Center{
+  width: 1170px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.MainFooter_Menu{
+  width: 100%;
+  height: 20.2px;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  padding-top: 45px;
+}
+.MainFooter_Menu span{
+  padding: 0 13px 0 0px;
+  line-height: 20.2px;
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* border-left: 3px solid #373737; */
+}
+.MainFooter_Menu a span::before{
+  content: "";
+  position:relative;
+  display: inline-block;
+  width: 2px;
+  height: 13px;
+  background-color: #373737;
+  margin-right: 13px;
+}
+.MainFooter_Menu a:nth-child(1) span::before{
+  background: none;
+}
+
+.MainFooter_Content{
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #373737;
+}
+.MainFooter_Content span{
+  padding: 0 8px 0 8px;
+}
+.MainFooter_Content span div{
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url(../../img/icon_sns_02.png);
+  background-size: 80px 40px;
+  background-repeat: no-repeat;
+}
+.MainFooter_Wrap_Center > img{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}

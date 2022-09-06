@@ -14,11 +14,11 @@ export default function Content4() {
   const itemText = "식재료이야기";
   return (
     <>
-      <Link to="#">
-        <div className={styles.Content4_Wrap}>
+      <div className={styles.Content4_Wrap}>
+        <Link to="#">
           <div className={styles.Content4_Wrap_Content_img}></div>
           <div className={styles.Content4_Wrap_Content_Back}></div>
-          <div className={styles.Content4_Wrap_Content_Front}></div>
+          
           <div className={styles.Content4_Wrap_Content}>
             <div className={styles.Content4ItemBox_wrap}>
               <h2>{infoHeadText1}</h2>
@@ -32,11 +32,11 @@ export default function Content4() {
               <div className={styles.Content4ItemBox_footer_textBox_hoverImg}>
                 {itemText}
               </div>
-              
             </div>
           </div>
-        </div>
-      </Link>
+          <div className={styles.Content4_Wrap_Content_Front}></div>
+        </Link>
+      </div>
     </>
   );
 }

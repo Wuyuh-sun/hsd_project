@@ -5,11 +5,11 @@ a{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .content1_wrap{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 524px;
   background-color: white;
-  top: 720px;
+  margin-top: 710px;
   left: 0;
 }
 .content1_wrap_center{
