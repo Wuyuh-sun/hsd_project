@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",  
-    "predeploy": "npm run build"   
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/Wuyuh-sun/hsd_project.git"
+  "homepage": "https://github.com/Wuyuh-sun/hsd_project.git",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
