@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Wuyuh-sun/hsd_project.git/static/css/main.38bb54c2.css",
+    "main.js": "/Wuyuh-sun/hsd_project.git/static/js/main.cb5c5d3d.js",
+    "static/media/jumbo3.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo3.af6afc08597166b81ca0.jpg",
+    "static/media/jumbo1.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo1.47ac0ba2ed27f5fb4aad.jpg",
+    "static/media/jumbo2.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo2.54860822dc3e6968c289.jpg",
+    "static/media/jumbo4.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo4.1e47de1fad69c4ba1d64.jpg",
+    "static/media/main_visual_02.jpg": "/Wuyuh-sun/hsd_project.git/static/media/main_visual_02.8c54f53932d0372ae888.jpg",
+    "static/media/jumbo6.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo6.2b3f118a276aa71d0628.jpg",
+    "static/media/jumbo7.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo7.243fa0ec27a1586d945b.jpg",
+    "static/media/jumbo5.jpg": "/Wuyuh-sun/hsd_project.git/static/media/jumbo5.34fa5f902a3d35b1ac1d.jpg",
+    "static/media/main_img_05.jpg": "/Wuyuh-sun/hsd_project.git/static/media/main_img_05.4f3ac940c383546eed97.jpg",
+    "index.html": "/Wuyuh-sun/hsd_project.git/index.html",
+    "main.38bb54c2.css.map": "/Wuyuh-sun/hsd_project.git/static/css/main.38bb54c2.css.map",
+    "main.cb5c5d3d.js.map": "/Wuyuh-sun/hsd_project.git/static/js/main.cb5c5d3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38bb54c2.css",
+    "static/js/main.cb5c5d3d.js"
+  ]
+}
