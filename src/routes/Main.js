@@ -23,7 +23,7 @@ export default function Main() {
         <Content3 />
         <Content4 />
         <Content5 />
-        <MainFooter/>
+        
       </div>
     </>
   );

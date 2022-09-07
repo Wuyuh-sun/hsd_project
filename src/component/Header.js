@@ -5,6 +5,18 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <>
+      {/* 링크 */}
+      <div className={styles.LinkWrap}>
+        <a href="https://www.facebook.com/hansotOfficial/?ref=ts&fref=ts" target="_blank">
+          <span className={styles.FacebookLink}></span>
+        </a>
+        <a href="https://www.instagram.com/hansot_official/" target="_blank">
+          <span className={styles.InstaLink}></span>
+        </a>
+        <Link to="/join/join_step1">회원가입</Link>
+        <Link to="/login">로그인</Link>
+      </div>
+      {/* 헤더 내비게이션 */}
       <header className={styles.header_navi}>
         <Link to="/">
           <img src={h1Img} alt="logo" />
@@ -112,7 +124,7 @@ export default function Header() {
                     e.target.addEventListener("mouseleave", (e) => {
                       e.target.parentNode.parentNode.parentNode.childNodes[2].childNodes[0].blur();
                     });
-                  } 
+                  }
                 }}
               >
                 <li>
