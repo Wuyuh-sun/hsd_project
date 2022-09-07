@@ -10,12 +10,12 @@ function App() {
     <>
       <div className={styles.wrap}>
         <BrowserRouter>
-          <Header/>
+          {/* <Header/> */}
           <Routes>
               <Route path="/" element = {<Main/>}></Route>
               <Route path="/login" element = {<Login/>}></Route>
           </Routes>
-          <MainFooter/>
+          {/* <MainFooter/> */}
         </BrowserRouter>
       </div>
     </>
