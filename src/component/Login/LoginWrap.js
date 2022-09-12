@@ -8,7 +8,6 @@ export default function LoginWrap() {
 
   useEffect(() => {
     const headerLinks = LoginWrap.current.parentNode.childNodes[0];
-    console.dir(headerLinks.childNodes[1]);
     headerLinks.childNodes[3].style.color = "black";
     headerLinks.childNodes[2].style.color = "black";
     headerLinks.childNodes[1].childNodes[0].style.backgroundPosition =

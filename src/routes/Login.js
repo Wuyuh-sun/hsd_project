@@ -1,17 +1,20 @@
 import { useEffect } from "react";
-import Header from "../component/Header";
 import LoginWrap from "../component/Login/LoginWrap";
-import MainFooter from "../component/Main/MainFooter";
 
-export default function Login(){
-  useEffect(()=>{
+export default function Login() {
+  useEffect(() => {
     document.body.style.backgroundColor = "#eeecec";
-  },[])
-  return(
+    // fetch("http://localhost:5000/test")
+    //   .then((res) => {
+    //     return res.json();
+    //   })
+    //   .then((data) => {
+    //     console.log(data[0].text);
+    //   });
+  }, []);
+  return (
     <>
-      <Header/>
-      <LoginWrap/>
-      <MainFooter/>
+      <LoginWrap />
     </>
-  )
+  );
 }
