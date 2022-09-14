@@ -1,32 +1,33 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const cors = require('cors');
-const port = 5000;
+const mongoose = require("mongoose");
+const User = require("./User");
 
-app.use(cors());
+app.get("/", (req, res) => {
+  res.send("mongo Connected");
 
-app.use(express.json()) // for parsing application/json
-app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+  mongoose.connect(
+    "mongodb://localhost:27017/testdb",
+    () => {
+      console.log("connected");
+    },
+    (e) => console.error(e)
+  );
 
-const testList = [{
-  id:1,
-  text:'text',
-  user: 'yunha'
-}];
+  async function run() {
+    const user = new User({
+      name: "yunha",
+      age: 25,
+    });
 
-app.get('/test', (req, res) => {
-  res.json(testList);
-})
-app.post('/test', (req, res) => {
-  const {text,user} = req.body;
-  testList.push({
-    id: id++,
-    text,
-    user
-  })
-  return res.send('success');
-})
+    user.save().then(() => {
+      console.log("user Saved");
+    });
+		console.log(user)
+  }
+	run();
+});
 
-app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}/`);
-})
+app.listen(5000, () => {
+  console.log("app listening on port http://localhost:5000/");
+});
