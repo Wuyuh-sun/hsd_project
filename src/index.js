@@ -6,15 +6,10 @@ import indexCss from "./index.css";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 
-const jumboState = true;
 
-function reducer(state = jumboState, action) {
-  if(action.jumboPlayState = true){
-    return action.jumboPlayState;
-  }
-  if(action.jumboPlayState = false){
-    return action.jumboPlayState;
-  }
+
+function reducer(state, action) {
+  
 }
 
 

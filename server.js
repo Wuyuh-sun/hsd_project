@@ -22,21 +22,20 @@ app.get("/", (req, res) => {
 
     // db에 저장하는 코드
 
-    const user = new User({
-      name: "hansol",
-      age: 25,
-      class: "sweduu"
-    });
-    //user data를 db에 저장
-    await user.save().then(() => {
-      console.log("user Saved");
-    });
-    console.log(user);
+    // const user = new User({
+    //   name: "test",
+    //   age: 25,
+    //   class: "swedu"
+    // });
+    // //user data를 db에 저장
+    // await user.save().then(() => {
+    //   console.log("user Saved");
+    // });
+    // console.log(user);
 
     //db에서 데이터 뽑아오는 코드
     const age24th = await User.find({age:24});
     const age25th = await User.find({age:25});
-    age24th.push(age25th);
     res.send(age24th);
   }
   run();
