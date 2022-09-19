@@ -5,7 +5,9 @@ export default function JoinBox2() {
   return (
     <>
       <div className={styles.Joinbox2}>
-        <Link to="/join/join_step3">
+        <Link to="/join/join_step3" onClick={()=>{
+          alert("인증을 완료하였습니다.")
+        }}>
           <div className={styles.JoinBox2_item}>
             <div className={styles.JoinBox2_item_img}>
               휴대폰 인증

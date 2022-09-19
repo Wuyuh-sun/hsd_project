@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import styles from "../../css/JoinCSS/Join2Wrap.module.css";
+import styles from "../../css/JoinCSS/Join3Wrap.module.css";
 import JoinBox1 from "./JoinBox1";
 import JoinBox2 from "./JoinBox2";
 export default function Joinwrap() {
